@@ -15,3 +15,17 @@ Static vs Dynamic Languages:
 ->Saves time in writing code but might give runtime error
 
 **Memory Management**
+->Stack Memory and Heap Memory
+a = 10
+a-- ref variable
+10 -- object
+
+a-- stored in stack
+10-- stored in heap
+
+a is pointing towards address of 10
+**a=10**
+![Screenshot (2)](https://user-images.githubusercontent.com/106425794/171350413-94915995-9e04-4e86-8800-b53ccb48978a.png)
+
+**More than 1 reference variable can point to one object **
+**If any one of these variables change the object original object will be changed and it is going to be changed for all**
