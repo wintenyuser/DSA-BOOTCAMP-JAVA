@@ -29,7 +29,7 @@ a is pointing towards address of 10
 
 ![Screenshot (4)](https://user-images.githubusercontent.com/106425794/171351457-3080f479-180d-4384-87d0-8f7c3b48d37f.png)
 
--> **More than 1 reference variable can point to one object **
+-> **More than 1 reference variable can point to one object**
 -> **If any one of these variables change the object original object will be changed and it is going to be changed for all**
 
 **No Reference Variable to the object**
