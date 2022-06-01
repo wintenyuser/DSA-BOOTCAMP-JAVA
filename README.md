@@ -33,3 +33,30 @@ a is pointing towards address of 10
 -> **If any one of these variables change the object original object will be changed and it is going to be changed for all**
 
 **No Reference Variable to the object**
+-> Object Hits Garbage collection
+
+-----------------------------TASKS-------------------------------
+Input a number and print whether its prime or not
+We will not check for 1 because 1 is neither prime nor composite
+
+Prime No Requirements : Ignore 1 and no itself and start checking for divisibility  from 2 until number-1th number
+
+**Input: Counter=2 number=16**
+**Output : Prime or Composite**
+**Algorithm :**
+1) Initialise counter and input number
+2) Check if counter is less than number
+    a) Y
+    b) N
+    If Yes: then goto step 3
+    If No: Output : Prime
+3) Check if number is divisible(number%counter==0) by counter
+    a) Y
+    b) N
+  If Yes: then Output : {number} is composite 
+4) If No then increment counter by 1 then goto and repeat process from step 2 untill counter is equal to number
+5)  If counter is equal then Output : Prime
+6) End 
+----------------------------------------------------------------------
+**FlowChart**
+![Screenshot (5)](https://user-images.githubusercontent.com/106425794/171360465-e8a047ec-6a45-4d04-a5ff-fed485062e07.png)
