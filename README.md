@@ -35,7 +35,7 @@ a is pointing towards address of 10
 **No Reference Variable to the object**
 -> Object Hits Garbage collection
 
------------------------------TASKS-------------------------------
+----------------------------------------------------------------------------**TASKS**--------------------------------------------------------------------------------------
 Input a number and print whether its prime or not
 We will not check for 1 because 1 is neither prime nor composite
 
@@ -57,6 +57,31 @@ Prime No Requirements : Ignore 1 and no itself and start checking for divisibili
 4) If No then increment counter by 1 then goto and repeat process from step 2 untill counter is equal to number
 5)  If counter is equal then Output : Prime
 6) End 
-----------------------------------------------------------------------
-**FlowChart**
+----------------------------------------------------------------------------**FLOWCHART**------------------------------------------------------------------------------
 ![Screenshot (5)](https://user-images.githubusercontent.com/106425794/171360465-e8a047ec-6a45-4d04-a5ff-fed485062e07.png)
+----------------------------------------------------------------------------**PSEUDOCODE**-----------------------------------------------------------------------------
+1) Pseudocode for Prime no
+Start
+input num
+c=2
+while c < num:
+     if(num%c)==0:
+            output "Composite"
+       c=c+1
+end while
+Output "Prime"
+Exit
+        
+2) Pseudocode for Salary Greater than 10000 add bonus of 2k otherwise add bonus ok 1k
+   start
+   input salary
+   if Salary > 10000:
+        Salary=bonus+2000
+        
+   else:
+        Salary=bonus+1000
+  Output Salary
+   end
+ 
+ -------------------------------------**HOW JAVA CODE EXECUTES**-----------------------------
+ ![Screenshot (6)](https://user-images.githubusercontent.com/106425794/171374166-3eb7526e-8ef6-4de1-bc12-6b5b0ecccfc9.png)
